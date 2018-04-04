@@ -1,0 +1,10 @@
+.admin-app__stage{
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    right: 0;
+    bottom: 70px;
+    background-color: yellowgreen;
+    
+
+}
