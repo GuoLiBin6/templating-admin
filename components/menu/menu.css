@@ -46,6 +46,9 @@ li{
     padding-left: 40px;
     display: none;
 }
+.menu-item:hover{
+    color: #fff;
+}
 .menu-item p{
     line-height: 40px;
 }

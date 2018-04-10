@@ -15,6 +15,7 @@ li{
     left: 0;
     color: #c2c2c2;
     font-size: 14px;
+    cursor: pointer;
 }
 .menu-bar{
     height: 45px;
@@ -45,6 +46,9 @@ li{
     height: 40px;
     padding-left: 40px;
     display: none;
+}
+.menu-item:hover{
+    color: #fff;
 }
 .menu-item p{
     line-height: 40px;
