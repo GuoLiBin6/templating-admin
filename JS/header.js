@@ -10,7 +10,7 @@ var $header = (function () {
             + `            <span>管理</span>`
             + `            <i class="iconfont icon-triangle-down"></i>`
             + `        </div>`
-            + `        <div class="submenu" style="display:none">`
+            + `        <div class="submenu">`
             + `            <i class="fa fa-angle-double-right"></i>`
             + `            <span>注销</span>`
             + `        </div>`
@@ -23,10 +23,13 @@ var $header = (function () {
             $('.submenu').css('display', 'none');
             $('.subopen i').attr('class', 'iconfont icon-triangle-down');
         });
-        $(app.config.layout).on('mouseover', function () {
+        $('.account').on('mouseover', function () {
             $('.subopen i').attr('class', 'iconfont icon-triangle-up');
             $('.submenu').css('display', 'block');
         });
+        $('.submenu').on('click',function(){
+            window.location.hash = '#/login';
+        })
 
     }
 

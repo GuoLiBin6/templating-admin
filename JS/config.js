@@ -127,7 +127,7 @@ app.menuData = [
         'icon': 'iconfont icon-pwd',
         'items': [{
             'title': '修改密码',
-            'url': '#/password-change'
+            'url': '#/change-password'
         }]
     }
 

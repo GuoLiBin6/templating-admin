@@ -23,6 +23,15 @@ var $login = (function () {
             + `</div>`;
         $(app.config.appContainer).html(html);
         $('html').css('background-color','#e2e2e2');
+
+
+        var $login = $('input[type="button"]');
+        $login.click(function(e){
+            e.preventDefault();
+            window.location.hash = '#/index';
+        })
+        console.log($login)
     }
     return { show: show };
+
 }());
